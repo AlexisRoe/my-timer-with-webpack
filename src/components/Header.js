@@ -1,16 +1,15 @@
 import "./header.css";
-import logoSrc from "../assets/logo.png";
 import { createElement } from "../utils/elements";
+import Button from "./Button";
 
 function Header() {
-  const logo = createElement("img", {
-    src: logoSrc,
-    alt: "Logo",
-  });
+
+  const button = Button({className: "plusButton", innerText: "+"})
+
 
   const header = createElement("header", {
     className: "header",
-    children: [logo],
+    children: [button],
   });
   return header;
 }

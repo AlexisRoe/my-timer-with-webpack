@@ -10,9 +10,21 @@
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 500px;
+  min-height: 600px;
+  margin: 2rem auto;
+  box-shadow: 25px 25px 25px 10px rgba(0, 0, 0, 0.1),
+    -25px -25px 25px 10px rgba(0, 0, 0, 0.1),
+    15px 15px 15px 5px rgba(0, 0, 0, 0.2),
+    -15px -15px 15px 5px rgba(0, 0, 0, 0.2);
 }
